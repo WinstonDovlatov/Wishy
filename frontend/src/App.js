@@ -3,7 +3,7 @@ import bridge from '@vkontakte/vk-bridge';
 import { View, SplitLayout, SplitCol, ScreenSpinner } from '@vkontakte/vkui';
 import { useActiveVkuiLocation } from '@vkontakte/vk-mini-apps-router';
 
-import { UserInfoFirst, UserInfoSecond, WishList, Home, SuccessPage } from './panels';
+import { UserInfoFirst, UserInfoSecond, WishList, Home, SuccessPage, FriendsList, FriendPresents } from './panels';
 import { DEFAULT_VIEW_PANELS } from './routes';
 import { UserContext } from './Context/UserContext';
 
@@ -33,6 +33,8 @@ export const App = () => {
             <UserInfoSecond id='user_info_2'/>
             <WishList id='wish_list'/>
             <SuccessPage id='success_page'/>
+            <FriendsList id='firend_lsit'/>
+            <FriendPresents id='friend_presents'/>
           </View>
         </SplitCol>
         {popout}

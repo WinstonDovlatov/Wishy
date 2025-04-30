@@ -27,7 +27,7 @@ export const Home = ({ id, fetchedUser }) => {
             <Placeholder
                     icon={<Icon56UserSquareOnSquareOutline />}
                     title="Подарки для друзей"
-                    action={<Button size="m" onClick={() => routeNavigator.push('persik')}><Paragraph style={{ whiteSpace: 'normal' }}>Просмотреть подарки</Paragraph></Button>}
+                    action={<Button size="m" onClick={() => routeNavigator.push('firend_lsit')}><Paragraph style={{ whiteSpace: 'normal' }}>Просмотреть подарки</Paragraph></Button>}
                   >
                     Давайте посмотрим, какие подарки подойдут вашим друзьям!
             </Placeholder>

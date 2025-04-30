@@ -43,7 +43,7 @@ export const WishList = ({ id }) => {
                   }
               }
           } catch (error) {
-              showSnackbar('Ошибка при загрузке списка');
+              console.log('Ошибка при загрузке списка');
           } finally {
               clearPop();
           }

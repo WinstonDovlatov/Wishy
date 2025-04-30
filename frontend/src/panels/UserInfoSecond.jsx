@@ -9,14 +9,6 @@ export const UserInfoSecond = ({ id }) => {
   const routeNavigator = useRouteNavigator();
   const { globalState, setGlobalState } = useContext(UserContext);
 
-  const handleSaveClick = () => {
-    routeNavigator.push('/user_info_3')
-    window.open(
-        "https://vk.com/im?sel=-230099802&entrypoint=community_page",
-        "_blank",
-      );
-
-  }
 
   return (
     <Panel id={id}>
